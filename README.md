@@ -1,7 +1,13 @@
 # Python Codewars
  Training Python with Codewars
  
-# Lessons Learned
+## Summary
+Codewars has been a truly fantastic way for me to learn coding, and I want to share my experience with everyone. For that, I will use 3 bulletpoints:
+ * Codewars is not for real (starting-from-0) beginners. After my first 3 months into coding, I tried it, got depressed by how hard it was for me, and so I quit. It wasn't until 2 months later that I came back. So, you need to at least know **how functions work in Python**.
+ * Because codewars works with a rank and a point system, your progress is "gamified" and so it is more fun to learn. You can even compete with your friends for fun (if you are that type of person).
+ * If you want to improve faster, really pay attention to other users' solutions. You don't have to understand every single one, but trying to figure out the most voted (and usually the shortest) solution helps you find new ways to solve problems.
+ 
+## Lessons Learned
 1) Lots of code can be written in one line <br>
 2) Remember you can "(i,j) for (m,n) in foo". So long as you unpack the same number of values, you can use tuples in your loop! <br> 
 3) The backwards **'\'** after an **else** statement lets you continue in the line below! (in case your line is too long)  <br>
@@ -48,10 +54,10 @@
 40) The beautiful **%%timeit** <br>
 41) To add a **conditional** inside the **f"** function use \*: f"{}glass{ 'es'**\*(condition)** }" <br>
 &emsp; **Note:** very important to use double quotes first and use single ones inside the brackets or **f"** will think you are closing it beforehand<br> 
-42) **Python RegEx** (Regular Expressions) can be used through 're' package. Useful when you need to do a search or match of  a certain pattern. Look up examples and syntax. E.g: foo = r'[A-Z]' would contain each uppercase char. Adding ('+') in the end (r'[A-Z]+') will return it by chunks. Another useful tip to split by x characters: **re.findall('.{1,4}', '123456789')** or **re.findall('....','1234567890')** will split by 4 (leaving {1} character hanging on the former and 0 on the latter). <br>
-&emsp; However, if you want the hanging characters to be replace by something: **re.findall(".{2}", '12345' + "\_")** <br>
-&emsp; From **textwrap import wrap**. Wrap also does the job wrap(s,4)<br>
-&emsp; Also sub is great for replacement: **sub(r'[to look for]','to replace with', s)**<br>
+42) **Python RegEx** (Regular Expressions) can be used through 're' package. Useful when you need to do a search or match of  a certain pattern. Look up examples and syntax. E.g: foo = r'[A-Z]' would contain each uppercase char. Adding ('+') in the end (r'[A-Z]+') will return it by chunks. <br> Another useful tip to split by x characters: **re.findall('.{1,4}', '123456789')** or **re.findall('....','1234567890')** will split by 4 (leaving {1} character hanging on the former and 0 on the latter). <br>
+However, if you want the hanging characters to be replace by something: **re.findall(".{2}", '12345' + "\_")** <br>
+From **textwrap import wrap**. Wrap also does the job wrap(s,4)<br>
+Also sub is great for replacement: **sub(r'[to look for]','to replace with', s)**<br>
 43) Intelligent way to make sure there's no repeated values: return [c,i for i in enumerate(s) if condition1 **and i not in s[:c]**] <br>
 44) It is possible to create a function that returns a function, by defining another function inside it and then returning that function, <br> &emsp; without calling it (so, with no parenthesis). Then, you will have to save it in a variable to be able to call it. <br> &emsp; E.g.: add_one = add(1)  /n  add_one(3)  --*Where add_one is the function inside your function* <br>
 45) You can create your return inside a list with conditionals, like: ["Escaped!",  "Caught!"][x.count('.') <= 3], so that the comparator acts as a separator. <br>
