@@ -18,8 +18,8 @@
 14) **str({}    {}{}).format(x,y,z...)** <br>
 15) **str.replace**('to add','to remove', (optional) number of times) <br>
 &emsp; **re.sub**(pattern, repl, string, count=0, flags=0) also works~ (check flags syntax) <br>
-&emsp; It is also possible to replace a certain length by **s.replace(s[:-4],'#'\\*(len(s)-4))** or **'{message:#>{fill}}'.format(message=s[-4:], fill=len(s))**<br>
-    16) **str.translate(None,'replacement')** is like str.replace() but works for multiple replacements. It is used with str.maketrans for multiple s(1,2,3)<br>
+&emsp; It is also possible to replace a certain length by **s.replace(s[:-4],'#'\*(len(s)-4))** or **'{message:#>{fill}}'.format(message=s[-4:], fill=len(s))** <br>
+16) **str.translate(None,'replacement')** is like str.replace() but works for multiple replacements. It is used with str.maketrans for multiple s(1,2,3)<br>
     &emsp; 1.characters that need replacement 2.replacement 3.needs to be deleted (optional) e.g.: **s.translate(str.maketrans(\ąćęłńóśźż\, \acelnoszz\))**<br>
     17) **list.index(i,1)** takes an optional parameter, a number, that tells where to start looking <br>
     18) These **'>>,<<'** are called bitwise shift (right,left) operators. Example: 10>>1 which is the same as 10//(2^1) <br>
