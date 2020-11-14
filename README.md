@@ -11,7 +11,7 @@ Codewars has been a truly fantastic way for me to learn coding, and I want to sh
 ## Lessons Learned
 1) Lots of code can be written in one line <br>
 2) Remember you can "(i,j) for (m,n) in foo". So long as you unpack the same number of values, you can use tuples in your loop! <br> 
-3) The backwards **'\'** after an **else** statement lets you continue in the line below! (in case your line is too long)  <br>
+3) The backwards **'\\'** after an **else** statement lets you continue in the line below! (in case your line is too long)  <br>
 4) The default function output that will work if no parameters are passed: def **def example(my_default=None)** <br>
 5) The function **ord(i)** takes a character and returns its integer, the function **chr(i)** does the opposite <br> 
 6) **list.sort()** is an in-place function and does not save anything (None), use **sorted(list)** <br>
