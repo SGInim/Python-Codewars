@@ -1,5 +1,5 @@
 # Python Codewars
- Training Python with Codewars
+ Training Python with Codewars <br>
  Feel free to check out the Jupyter Notebook I use to learn :p
  
 ## Summary
