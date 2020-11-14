@@ -1,5 +1,6 @@
 # Python Codewars
  Training Python with Codewars
+ Feel free to check out the Jupyter Notebook I use to learn :p
  
 ## Summary
 Codewars has been a truly fantastic way for me to learn coding, and I want to share my experience with everyone. For that, I will use 3 bulletpoints:
