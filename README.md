@@ -48,8 +48,7 @@
 40) The beautiful **%%timeit** <br>
 41) To add a **conditional** inside the **f"** function use \*: f"{}glass{ 'es'**\*(condition)** }" <br>
 &emsp; **Note:** very important to use double quotes first and use single ones inside the brackets or **f"** will think you are closing it beforehand<br> 
-42) **Python RegEx** (Regular Expressions) can be used through 're' package. Useful when you need to do a search or match of  a certain pattern. <br> &emsp; Look up examples and syntax. E.g: foo = r'[A-Z]' would contain each uppercase char. Adding ('+') in the end (r'[A-Z]+') will return it by chunks. <br>
-&emsp; Another useful tip to split by x characters: <br>&emsp; **re.findall('.{1,4}', '123456789')** or **re.findall('....','1234567890')** will split by 4 (leaving {1} character hanging on the former and 0 on the latter). <br>
+42) **Python RegEx** (Regular Expressions) can be used through 're' package. Useful when you need to do a search or match of  a certain pattern. Look up examples and syntax. E.g: foo = r'[A-Z]' would contain each uppercase char. Adding ('+') in the end (r'[A-Z]+') will return it by chunks. Another useful tip to split by x characters: **re.findall('.{1,4}', '123456789')** or **re.findall('....','1234567890')** will split by 4 (leaving {1} character hanging on the former and 0 on the latter). <br>
 &emsp; However, if you want the hanging characters to be replace by something: **re.findall(".{2}", '12345' + "\_")** <br>
 &emsp; From **textwrap import wrap**. Wrap also does the job wrap(s,4)<br>
 &emsp; Also sub is great for replacement: **sub(r'[to look for]','to replace with', s)**<br>
@@ -114,4 +113,4 @@
 &emsp; And **use this code**: display(HTML("https://www.codewars.com/users/Snim/badges/large")) <br>
 &emsp; Note: Image(image.png) can simply be used if your image is saved locally (same folder as notebook) <br>
 80) **Sort by two keys**: new_list = *sorted(a_list, key=lambda x: (len(x), x))*. Note: first by len and then alphabetically (second 'x')<br>
-81) Python's **from os.path** import **commonprefix** returns prefix shared by all words in list, e.g.: commonprefix(['apple', 'apartment']) will return **ap** <br>
+81) Python's **from os.path** import **commonprefix** returns prefix shared by all words in list, e.g.: commonprefix(['apple', 'apartment']) will return **'ap'** <br>
