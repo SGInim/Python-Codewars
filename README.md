@@ -4,7 +4,7 @@
  
 ## Summary
 Codewars has been a truly fantastic way for me to learn coding, and I want to share my experience with everyone. For that, I will use 3 bulletpoints:
- * Codewars is not for real (starting-from-0) beginners. After my first 3 months into coding, I tried it, got depressed by how hard it was for me, and so I quit. It wasn't until 2 months later that I came back. So, you need to at least know **how functions work in Python**.
+ * Codewars is not for absolute beginners. After my first 3 months into coding, I tried it, got depressed by how hard it was for me, and so I quit. It wasn't until 2 months later that I came back. So, you need to at least know **how functions work in Python**.
  * Because codewars works with a rank and a point system, your progress is "gamified" and so it is more fun to learn. You can even compete with your friends for fun (if you are that type of person).
  * If you want to improve faster, really pay attention to other users' solutions. You don't have to understand every single one, but trying to figure out the most voted (and usually the shortest) solution helps you find new ways to solve problems.
  
